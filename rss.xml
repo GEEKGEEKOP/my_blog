@@ -6,7 +6,7 @@
   <link href="http://geeksman.ir/rss.xml" rel="self"/>
   
   <link href="http://geeksman.ir/"/>
-  <updated>2025-09-15T17:14:15.678Z</updated>
+  <updated>2025-09-15T18:51:12.895Z</updated>
   <id>http://geeksman.ir/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>First_notes</title>
+    <link href="http://geeksman.ir/2025/09/15/First-notes/"/>
+    <id>http://geeksman.ir/2025/09/15/First-notes/</id>
+    <published>2025-09-15T18:50:00.000Z</published>
+    <updated>2025-09-15T18:51:12.895Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="شبکه"><a href="#شبکه" class="headerlink" title="شبکه"></a>شبکه</h1><h2 id="ip"><a href="#ip" class="headerlink" title="ip"></a>ip</h2><ul><li>ساب نتینگ</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;شبکه&quot;&gt;&lt;a href=&quot;#شبکه&quot; class=&quot;headerlink&quot; title=&quot;شبکه&quot;&gt;&lt;/a&gt;شبکه&lt;/h1&gt;&lt;h2 id=&quot;ip&quot;&gt;&lt;a href=&quot;#ip&quot; class=&quot;headerlink&quot; title=&quot;ip&quot;&gt;&lt;/a&gt;ip&lt;/h</summary>
+      
+    
+    
+    
+    <category term="Notes" scheme="http://geeksman.ir/categories/Notes/"/>
+    
+    
+    <category term="شبکه" scheme="http://geeksman.ir/tags/%D8%B4%D8%A8%DA%A9%D9%87/"/>
+    
+    <category term="farsi" scheme="http://geeksman.ir/tags/farsi/"/>
+    
+    <category term="network" scheme="http://geeksman.ir/tags/network/"/>
+    
+  </entry>
+  
+  <entry>
     <title>اولین پوست</title>
     <link href="http://geeksman.ir/2025/09/15/hello-world/"/>
     <id>http://geeksman.ir/2025/09/15/hello-world/</id>
     <published>2025-09-15T15:21:00.000Z</published>
-    <updated>2025-09-15T17:14:15.678Z</updated>
+    <updated>2025-09-15T18:48:52.457Z</updated>
     
     <content type="html"><![CDATA[<h1 id="اولین-پوست"><a href="#اولین-پوست" class="headerlink" title="اولین پوست"></a>اولین پوست</h1><p>من در اینجا چیزایی که یاد میگیرم رو بازگو میکنم که خودم بهتر یاد بگیرم اگر این باعث میشه که تو هم چیزایی جدیدی یاد بگیری که چه بهتر من درمورد برنامه نویسی و امنیت و شبکه و حتی موضوعات ریاضی و فیزیک مینویسم و امیدوارم همه اون چیزایی که بلدم رو درست منتقل کنم </p>]]></content>
     
@@ -33,10 +61,12 @@
     
     
     
+    <category term="FUN" scheme="http://geeksman.ir/categories/FUN/"/>
     
-    <category term="first" scheme="http://geeksman.ir/tags/first/"/>
     
     <category term="farsi" scheme="http://geeksman.ir/tags/farsi/"/>
+    
+    <category term="first" scheme="http://geeksman.ir/tags/first/"/>
     
     <category term="persian" scheme="http://geeksman.ir/tags/persian/"/>
     
