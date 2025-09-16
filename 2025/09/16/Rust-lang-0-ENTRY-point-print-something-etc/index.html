@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    p{
+        margin-top: 0 !important;
+        margin-bottom: 1rem !important;
+        font-size: 1.1rem;
+    }
+    figure{
+        margin: 0 !important;
+    }
+    pre{
+        padding: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 1rem !important;
+    }
+
+    td{
+        padding: 0 !important;
+        margin-bottom: 1rem !important;
+    }
+    h1,h2,h3,h4,h5,h6{
+        margin-top: 0 !important;
+        margin-bottom: 1rem !important;
+    }
+    @media (min-width: 1024px) {
+        #middle-box{
+            min-width: 56rem;
+        }
+    
+    }
+</style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pain01-Words - Archives</title>
+    <title>Pain01-Words - Rust_lang_0_[ENTRY point, print something, etc]]</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/tailwind.css">
+    <link rel="stylesheet" href="/css/highlight.css">
+    <link rel="stylesheet" href="/css/toc.css">
     
 <header class="bg-black text-hacker-white py-4 font-dos font-extrabold">
     <div class="container mx-auto flex items-center justify-between space-x-8">
@@ -158,205 +190,57 @@
 
 
 <meta name="generator" content="Hexo 7.3.0"></head>
-<body class="bg-black container mx-auto">
-    <h1 class="text-4xl text-hacker-color1 font-bold font-dos">Archives</h1>
-    <hr class="w-full border-t-2 border-line-color border-dashed">
-    <div class="container mx-auto flex bg-black min-h-screen">
-        <div class="w-full">
-            
+<body class="bg-black text-hacker-color3 container mx-auto" style="overflow-x:hidden">
+    <!-- 文章标题 -->
+    <h1 class="text-5xl text-hacker-color1 font-bold font-dos my-6 text-center">Rust_lang_0_[ENTRY point, print something, etc]]</h1>
 
-            <div class="archive-list text-lg mt-8">
-            
-                <section class="mb-6">
-                <h2 class="text-2xl font-bold text-hacker-color1 mb-4">2025</h2>
-                <ul class="ml-4">
-                    
-                    <li class="mb-2">
-                        <span class="text-hacker-color3 ">2025-09-15 >> </span>
-                        <a class="text-hacker-color1 hover:underline" href="/2025/09/15/First-notes/">First_notes</a>
-                    </li>
-                    
-                    <li class="mb-2">
-                        <span class="text-hacker-color3 ">2025-09-15 >> </span>
-                        <a class="text-hacker-color1 hover:underline" href="/2025/09/15/hello-world/">اولین پوست</a>
-                    </li>
-                    
-                </ul>
-                </section>
-            
-            </div>
+    <!-- 发布时间 -->
+    <p class="text-hacker-color3 text-center text-sm mb-4">
+        2025-09-16
+    </p>
 
+    <!-- 文章内容 -->
+    <div id="article-content" class="article-entry prose prose-invert mx-auto max-w-4xl leading-relaxed highlight" style="display: flex;">
+        <div id="middle-box">
+            <h1 id="RUST"><a href="#RUST" class="headerlink" title="RUST"></a>RUST</h1><p>خوب من یک چیزایی در مورد زبان راست یاد<br>رفتم خیلی ابتدایی هست ولی دوست داشتم که خودم یک بار درسش رو بدم</p>
+<p>خوب ما یک اینتری پوینت داریم که برنامه ما از اونجا کد های ما رو کمپایل میکنه که تابع </p>
+<p>main </p>
+<p>هستش</p>
+<p>بدین صورت</p>
+<figure class="highlight rust"><table><tr><td class="code"><pre><code class="hljs rust"><span class="hljs-keyword">fn</span> <span class="hljs-title function_">main</span>()&#123;<br>	<span class="hljs-comment">// comment somthing</span><br>&#125;<br></code></pre></td></tr></table></figure>
+
+<p>دقیقا مثل زبان سی یا زبان های دیگه</p>
+<p>اگر بخواید چیزی رو چاپ کنید باید از تابع </p>
+<p>println!();</p>
+<p>استفاده کنید</p>
+<figure class="highlight rust"><table><tr><td class="code"><pre><code class="hljs rust"><span class="hljs-keyword">fn</span> <span class="hljs-title function_">main</span>()&#123;<br>	<span class="hljs-built_in">println!</span>(<span class="hljs-string">&quot;Hello, World&quot;</span>);<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<p>خوب برای ست کردن متغییر روش های متعددی هست و همچنین انواع داده های زیادی هست سعی میکنم با مثال اینا رو بگم</p>
+<figure class="highlight rust"><table><tr><td class="code"><pre><code class="hljs rust"><span class="hljs-keyword">fn</span> <span class="hljs-title function_">main</span>()&#123;<br>	<span class="hljs-keyword">let</span> <span class="hljs-variable">a</span>:<span class="hljs-type">i32</span> = -<span class="hljs-number">545</span>; <span class="hljs-comment">// this is 32bit number and + OR -</span><br>    <span class="hljs-keyword">let</span> <span class="hljs-variable">b</span>:<span class="hljs-type">u16</span> = <span class="hljs-number">5465</span>; <span class="hljs-comment">// this is 16bit number and just + number</span><br>    <span class="hljs-keyword">let</span> <span class="hljs-variable">c</span> = <span class="hljs-number">46</span>; <span class="hljs-comment">// by default is i32</span><br>    <span class="hljs-comment">// u have to write all of that in another time </span><br>&#125;<br></code></pre></td></tr></table></figure>
+<p>خوب این متن نیاز به ویرایش داره در ادامه تکمیل ترش میکنم<br>فعلا :)</p>
 
         </div>
         
-    <div class="w-1/3 hidden md:block space-y-4 mt-8">
-      
+            <div class="post-container">
+            <aside class="toc-container">
+                <button class="toc-toggle">Article Directory</button>
+                <nav class="toc" id="toc"></nav>
+            </aside>
+        </div>
         
-          <!-- 搜索框 -->
-          <input type="text" id="search-input" placeholder="Search..." class="w-full p-2.5 text-lg mb-5 border-2 border-line-color rounded bg-black text-white placeholder-gray-400"/>
-          <div id="search-results"></div>
-        
-  
-        
-  
-        
-  
-        
-  
-        
-  
-      
-        
-  
-        
-          <!-- 公告栏 -->
-          <div class=" text-white p-4 rounded-md border-2 border-dashed border-line-color mb-4">
-            <h3 class="font-bold text-lg text-hacker-color1">Notice</h3>
-            <p class="mt-4"> 🎉 Welcome！</br> :) :O :O </p>
-          </div>
-        
-  
-        
-  
-        
-  
-        
-  
-      
-        
-  
-        
-  
-        
-          <!-- 分类部分 -->
-          <h3 class="text-hacker-color1 font-bold text-lg">Categories</h3>
-          <div>
-            
-              <a href="http://geeksman.ir/categories/Notes/" class="text-hacker-color3 hover:text-white">
-                Notes (1)
-              </a>
-              <br />
-            
-              <a href="http://geeksman.ir/categories/FUN/" class="text-hacker-color3 hover:text-white">
-                FUN (1)
-              </a>
-              <br />
-            
-              <a href="http://geeksman.ir/categories/RUST/" class="text-hacker-color3 hover:text-white">
-                RUST (1)
-              </a>
-              <br />
-            
-            
-          </div>
-          <hr class="w-full border-t-2 border-line-color border-dashed">
-        
-  
-        
-  
-        
-  
-      
-        
-  
-        
-  
-        
-  
-        
-          <!-- 标签部分 -->
-          <h3 class="text-hacker-color1 font-bold text-lg">Tags</h3>
-          <div class="flex flex-wrap justify-start items-center">
-            
-              <a href="http://geeksman.ir/tags/farsi/" class="text-hacker-color3 hover:bg-hacker-hover-color hover:text-white block border border-hacker-color3 hover:border-dotted rounded-sm py-0.5 px-2 mr-4 mb-2">
-                farsi <sub>2</sub>
-              </a>
-              <br />
-            
-              <a href="http://geeksman.ir/tags/hack/" class="text-hacker-color3 hover:bg-hacker-hover-color hover:text-white block border border-hacker-color3 hover:border-dotted rounded-sm py-0.5 px-2 mr-4 mb-2">
-                hack <sub>1</sub>
-              </a>
-              <br />
-            
-              <a href="http://geeksman.ir/tags/first/" class="text-hacker-color3 hover:bg-hacker-hover-color hover:text-white block border border-hacker-color3 hover:border-dotted rounded-sm py-0.5 px-2 mr-4 mb-2">
-                first <sub>1</sub>
-              </a>
-              <br />
-            
-              <a href="http://geeksman.ir/tags/persian/" class="text-hacker-color3 hover:bg-hacker-hover-color hover:text-white block border border-hacker-color3 hover:border-dotted rounded-sm py-0.5 px-2 mr-4 mb-2">
-                persian <sub>1</sub>
-              </a>
-              <br />
-            
-              <a href="http://geeksman.ir/tags/Rust/" class="text-hacker-color3 hover:bg-hacker-hover-color hover:text-white block border border-hacker-color3 hover:border-dotted rounded-sm py-0.5 px-2 mr-4 mb-2">
-                Rust <sub>1</sub>
-              </a>
-              <br />
-            
-              <a href="http://geeksman.ir/tags/programming/" class="text-hacker-color3 hover:bg-hacker-hover-color hover:text-white block border border-hacker-color3 hover:border-dotted rounded-sm py-0.5 px-2 mr-4 mb-2">
-                programming <sub>1</sub>
-              </a>
-              <br />
-            
-            
-          </div>
-          <hr class="w-full border-t-2 border-line-color border-dashed">
-        
-  
-        
-  
-      
-        
-  
-        
-  
-        
-  
-        
-  
-        
-          <!-- 链接部分 -->
-          <h3 class="text-hacker-color1 font-bold text-lg">Links</h3>
-          <div>
-            
-              <a href="https://duckduckgo.com/?t=ftsa&amp;q=porn" target="_blank" class="text-hacker-color3 hover:text-white">
-                X/Twitter
-              </a>
-              <br />
-            
-              <a href="https://github.com/GEEKGEEKOP" target="_blank" class="text-hacker-color3 hover:text-white">
-                github
-              </a>
-              <br />
-            
-              <a href="mailto:geekgeekop@yahoo.com" target="_blank" class="text-hacker-color3 hover:text-white">
-                Email
-              </a>
-              <br />
-            
-              <a href="http://geeksman.ir/notes/" target="_blank" class="text-hacker-color3 hover:text-white">
-                Hacker Notes
-              </a>
-              <br />
-            
-          </div>
-          <hr class="w-full border-t-2 border-line-color border-dashed">
-        
-  
-      
     </div>
-  
-  
-  
-  
-  
 
 
-
-
-
-
+    <!-- 返回主页链接 -->
+    <div class="text-center my-8">
+        <a href="/" class="text-hacker-color1 underline hover:text-hacker-color2">← Back to Home</a>
     </div>
+
+      
+      <script src="/js/toc.js"></script>  <!-- 引入 TOC 逻辑 -->
+      
+      
+
     <footer class="bg-black text-gray-400 py-4">
  <div class="container mx-auto text-center">
   <p>© <span id="current-year"></span>  Pain01 
@@ -378,6 +262,7 @@ svg: {
 };
 </script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+
 
 
 </body>
