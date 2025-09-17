@@ -6,7 +6,7 @@
   <link href="http://geeksman.ir/rss.xml" rel="self"/>
   
   <link href="http://geeksman.ir/"/>
-  <updated>2025-09-16T18:17:22.965Z</updated>
+  <updated>2025-09-17T18:28:08.091Z</updated>
   <id>http://geeksman.ir/</id>
   
   <author>
@@ -15,6 +15,43 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>آمار و احتمال 0</title>
+    <link href="http://geeksman.ir/2025/09/17/%D8%A2%D9%85%D8%A7%D8%B1-%D9%88-%D8%A7%D8%AD%D8%AA%D9%85%D8%A7%D9%84-0/"/>
+    <id>http://geeksman.ir/2025/09/17/%D8%A2%D9%85%D8%A7%D8%B1-%D9%88-%D8%A7%D8%AD%D8%AA%D9%85%D8%A7%D9%84-0/</id>
+    <published>2025-09-17T17:41:00.000Z</published>
+    <updated>2025-09-17T18:28:08.091Z</updated>
+    
+    <content type="html"><![CDATA[<p>خوب سلام فک کنم این قراره سخت ترین مطلبی باشه که قراره بنویسم چون خیلی مفهموم سنگینی داره </p><p>خوب اول میخوام به مفهموم گزاره بپردازم هر جمله خبری میشه یک گذاره یعنی جملات امری و احساسی و اینا گزاره نیستن و همچنین جملات توصیفی هم گزاره نیستن مثل این گل زیباست خوب معیار زیبا بودن چیه و برای هر کسی فرق میکنه اما یک پارامتری مثل سن برای همه یکسانه و همه هم نظر هستن فک کنم خودتون یکذره روش فکر کنیم به نتیجه برسید</p><p>مفهموم بعدی ترکیب عطفی هست که در اون ما دو ریزالت یا گذاره داریم و مفهوم اون به کلمه و دلالت داره یعنی من وقتی دو چیز درست  میگم و ترکیب عطفی میبندم اگر جفت شون درست باشه که هست جواب درست میده اما اگر حتی یکیشون نادرست باشه جواب منفی به من میده مثل جدول زیر</p><table><thead><tr><th>p</th><th>q</th><th>p ^ q</th></tr></thead><tbody><tr><td>True</td><td>True</td><td>True</td></tr><tr><td>True</td><td>False</td><td>False</td></tr><tr><td>False</td><td>True</td><td>False</td></tr><tr><td>False</td><td>False</td><td>False</td></tr></tbody></table><p>واو خیلی خوب درش اوردم</p><p>بریم سراغ ترکیب فصلی که در اون تقریبا بر عکس ترکیف عطفی هست اگر همه چیزایی که گفته باشیم نادرست باشن اون موقع نادرست هست اما اگر فقط یک چیز درست گفته باشیم همه اون درست میشه حس میکنم خوب نمیتونم انتقالش بدم چون کلمات واقعا نمیتونن توصیفش کنن و یک خورده ای سخته</p><table><thead><tr><th>p</th><th>q</th><th>p ^ q</th></tr></thead><tbody><tr><td>True</td><td>True</td><td>True</td></tr><tr><td>True</td><td>False</td><td>True</td></tr><tr><td>False</td><td>True</td><td>True</td></tr><tr><td>False</td><td>False</td><td>False</td></tr></tbody></table><p>خوب موضوع بعدی شرطی گزاره هست<br>خوب قبلش من بادی نقیض رو بگم نقیض همون </p><p><code>not</code></p><p>توی پایتون توی پایتون پشت هر بولینی کلمه نات رو بزاری نقضش میکنه یعنی اگر درست هست نادرستش کن و بر عکس</p><table><thead><tr><th>p</th><th>~p</th></tr></thead><tbody><tr><td>True</td><td>False</td></tr><tr><td>False</td><td>True</td></tr></tbody></table><p>حالا آماده ایم بریم سراغ شرطی گزاره<br>خوب به فارسی میشه اگر گزاره پی آنگاه گزاره کیو<br>اینطوری خونده میشه حالا اگر بخوایم تبدیلش کنم چجوری میشه  میشه </p><p>p &#x3D;&gt; q —–&gt; ~p ∨ q</p><p>خوب الان متوجه شدم که علائم جبری رو توضیح ندادم ولی زیادم مهم نیست چون در ادامه آشنا میشیم با هاشون بریم سراغ جدول شرطی گزاره</p><table><thead><tr><th>p</th><th>q</th><th>p &#x3D;&gt; q</th></tr></thead><tbody><tr><td>True</td><td>True</td><td>True</td></tr><tr><td>True</td><td>False</td><td>False</td></tr><tr><td>False</td><td>True</td><td>True</td></tr><tr><td>False</td><td>False</td><td>True</td></tr></tbody></table><p>خوب چند تا قانون وجود داره توی دنیای جبر که باید به تک تک شون بپردازم</p><p>خوب اولیش شرکت پذیری هست </p><p>مثل زیر </p><p><code>(p ^ q) ^ r ≡ p ^ (q ^ r)</code></p><p><code>(p ∨ q) ∨ r ≡ p ∨(q ∨ r)</code></p><p>نکته اون هم اینه که باید بین یا ترکیب عطفی یاشه یا ترکیب فصلی</p><p>قانون بعدی قانون پخش هست که بعدش هم میتونیم بر عکسش رو هم انجام بدیم که تقریبا همون فاکتور گیری میشه</p><p><code>p∨(q^r) ≡ (p∨q)^(p∨r)</code></p><p>حالا مورد بالا میتونه مرکب هم باشه مشکلی نداره<br>و خیلی هم کمک میکنه </p><p>قاعده بعدی جذب هست با اون اثبات خیلی سختش</p><p>ما یک هم چین رابطه رو داریم</p><p><code>p∨(p^q) ≡ p</code></p><p>اثبات<br>میتونید اثبات هم اینجا ببیندی <a href="https://zh.wikipedia.org/wiki/%E5%90%B8%E6%94%B6%E5%BE%8B">1</a></p><figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs math">P ∧ (P ∨ Q) = P ∨ (P ∧ Q) = P<br><br>(P ∨ F) ∧ (P ∨ Q) = P ∨ (F ∧ Q) = P ∨ F = P<br><br>(P ∧ T) ∨ (P ∧ Q) = P ∧ (T ∨ Q) = P ∧ T = P <br></code></pre></td></tr></table></figure><p>خوب قاعده شبه جذب که این آسون تره </p><figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs plaintext">P ∧ (~P ∨ Q) = (P ∧ Q)<br>P ∨ (~P ∧ Q) = (P ∨ Q)<br><br>اثبات<br>                      .F<br>P ∧ (~P ∨ Q) ----&gt; (P ∧ ~P) ∨ (P ∧ Q) ---&gt; F ∨ (P ∧ Q) = (P ∧ Q)<br><br>                      .T<br>P ∨ (~P ∧ Q) ----&gt; (P ∨ ~P) ∧ (P ∨ Q) ---&gt; T ∧ (P ∨ Q) = (P ∨ Q)<br></code></pre></td></tr></table></figure><p>خوب دمورگان هم بگم تموم بشه بره </p><p>اگر پشت یک پرانتز خواستید نقیض بزارید باید با یک قاعده اون پخش کنید اول که ترکیب عطفی به فصلی تبدیل میشه و برعکس و همچنین باید گزاره ها رو نقض کنید</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs plaintext">~(P ∨ Q) = (~P ∧ ~Q)<br>~(~P ∧ Q) = (P ∨ ~Q)<br>~(P ⇒ Q) = ~[~p ∨ Q] = (P ∧ ~Q)<br></code></pre></td></tr></table></figure><p>خوب این مطالب زیر باقی موند ظاهرا باید بزارمشون واسه فردا یا یک تایم دیگه تا جورنالشون کنم<br>#دوشرطی<br>#عکس و نقیض</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;خوب سلام فک کنم این قراره سخت ترین مطلبی باشه که قراره بنویسم چون خیلی مفهموم سنگینی داره &lt;/p&gt;
+&lt;p&gt;خوب اول میخوام به مفهموم گزاره بپردازم </summary>
+      
+    
+    
+    
+    <category term="جبر" scheme="http://geeksman.ir/categories/%D8%AC%D8%A8%D8%B1/"/>
+    
+    <category term="منطق" scheme="http://geeksman.ir/categories/%D8%AC%D8%A8%D8%B1/%D9%85%D9%86%D8%B7%D9%82/"/>
+    
+    <category term="آمار و احتمال" scheme="http://geeksman.ir/categories/%D8%AC%D8%A8%D8%B1/%D9%85%D9%86%D8%B7%D9%82/%D8%A2%D9%85%D8%A7%D8%B1-%D9%88-%D8%A7%D8%AD%D8%AA%D9%85%D8%A7%D9%84/"/>
+    
+    
+    <category term="آمار و احتمال" scheme="http://geeksman.ir/tags/%D8%A2%D9%85%D8%A7%D8%B1-%D9%88-%D8%A7%D8%AD%D8%AA%D9%85%D8%A7%D9%84/"/>
+    
+    <category term="جبر" scheme="http://geeksman.ir/tags/%D8%AC%D8%A8%D8%B1/"/>
+    
+    <category term="منطق" scheme="http://geeksman.ir/tags/%D9%85%D9%86%D8%B7%D9%82/"/>
+    
+    <category term="دمورگان" scheme="http://geeksman.ir/tags/%D8%AF%D9%85%D9%88%D8%B1%DA%AF%D8%A7%D9%86/"/>
+    
+    <category term="گزاره شرطی" scheme="http://geeksman.ir/tags/%DA%AF%D8%B2%D8%A7%D8%B1%D9%87-%D8%B4%D8%B1%D8%B7%DB%8C/"/>
+    
+  </entry>
   
   <entry>
     <title>Rust_lang_0_[ENTRY point, print something, etc]]</title>
