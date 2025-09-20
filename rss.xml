@@ -6,7 +6,7 @@
   <link href="http://geeksman.ir/rss.xml" rel="self"/>
   
   <link href="http://geeksman.ir/"/>
-  <updated>2025-09-19T08:09:08.161Z</updated>
+  <updated>2025-09-20T14:52:33.152Z</updated>
   <id>http://geeksman.ir/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>حسابان صفر مجموع دنباله ها</title>
+    <link href="http://geeksman.ir/2025/09/20/%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D9%86-%D8%B5%D9%81%D8%B1-%D9%85%D8%AC%D9%85%D9%88%D8%B9-%D8%AF%D9%86%D8%A8%D8%A7%D9%84%D9%87-%D9%87%D8%A7/"/>
+    <id>http://geeksman.ir/2025/09/20/%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D9%86-%D8%B5%D9%81%D8%B1-%D9%85%D8%AC%D9%85%D9%88%D8%B9-%D8%AF%D9%86%D8%A8%D8%A7%D9%84%D9%87-%D9%87%D8%A7/</id>
+    <published>2025-09-20T14:15:00.000Z</published>
+    <updated>2025-09-20T14:52:33.152Z</updated>
+    
+    <content type="html"><![CDATA[<p>خوب ما که کلا دو تا دونباله داریم و چیز خاصی هم نیستن حسابی و هندسی و حل سوال هاشون به شدت سخته </p><h2 id="حسابی"><a href="#حسابی" class="headerlink" title="حسابی"></a>حسابی</h2><p>مجموع ان جمله حسابی</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs math">Sᵪ = تعداد × عدد وسط = x × e = x((a₁+aᵪ)/2) = ½x(2a + (n-1)d)<br></code></pre></td></tr></table></figure><p>از تمامی اینها میشه استفاده کرد </p><h2 id="هندسی"><a href="#هندسی" class="headerlink" title="هندسی"></a>هندسی</h2><p>مجموع جملات هندسی</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><code class="hljs math">Sᵪ = a((qⁿ-1)÷(q−1))<br></code></pre></td></tr></table></figure><p>خوب مسئله ظاهرا ساده است اما یکخورده حل سوال هاش سخته</p><h2 id="حل-یک-سوال"><a href="#حل-یک-سوال" class="headerlink" title="حل یک سوال"></a>حل یک سوال</h2><p>مثلا این سوال </p><p><img src="/images/hesaban/0/0.png" alt="soal"></p><p>اینم حلش</p><p><img src="/images/hesaban/0/1.jpg" alt="javab"></p><p>خیلی نفس گیر بود</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;خوب ما که کلا دو تا دونباله داریم و چیز خاصی هم نیستن حسابی و هندسی و حل سوال هاشون به شدت سخته &lt;/p&gt;
+&lt;h2 id=&quot;حسابی&quot;&gt;&lt;a href=&quot;#حسابی&quot; clas</summary>
+      
+    
+    
+    
+    <category term="حسابان" scheme="http://geeksman.ir/categories/%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D9%86/"/>
+    
+    
+    <category term="حسابان" scheme="http://geeksman.ir/tags/%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D9%86/"/>
+    
+    <category term="الگو" scheme="http://geeksman.ir/tags/%D8%A7%D9%84%DA%AF%D9%88/"/>
+    
+    <category term="دنباله" scheme="http://geeksman.ir/tags/%D8%AF%D9%86%D8%A8%D8%A7%D9%84%D9%87/"/>
+    
+    <category term="هندسی" scheme="http://geeksman.ir/tags/%D9%87%D9%86%D8%AF%D8%B3%DB%8C/"/>
+    
+    <category term="حسابی" scheme="http://geeksman.ir/tags/%D8%AD%D8%B3%D8%A7%D8%A8%DB%8C/"/>
+    
+    <category term="مجموع دنباله ها " scheme="http://geeksman.ir/tags/%D9%85%D8%AC%D9%85%D9%88%D8%B9-%D8%AF%D9%86%D8%A8%D8%A7%D9%84%D9%87-%D9%87%D8%A7/"/>
+    
+  </entry>
   
   <entry>
     <title>هندسه صفر قسمت دایره یک</title>
